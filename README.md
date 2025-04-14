@@ -123,7 +123,7 @@ lsb_release -a            # Show Ubuntu version
 ```
 
 ## 🧾 8. Conclusion
-Ubuntu stands out as a **powerful, stable, and beginner-friendly** Linux distribution. Whether you are a developer, a system administrator, or an enterprise user, Ubuntu provides a robust and flexible platform for nearly all computing needs. Its strong community and corporate backing from Canonical ensure continual innovation and support.
+Ubuntu stands out as a **powerful, stable, and beginner-friendly** Linux distribution. If you are a developer, a system administrator, or an enterprise user, Ubuntu provides a robust and flexible platform for nearly all computing needs. Its strong community and corporate backing from Canonical ensure continual innovation and support.
 
 ## 📬 9. Contact Information
 
@@ -135,8 +135,5 @@ Community: [https://ubuntuforums.org](https://ubuntuforums.org)
 ## 📚 10. References
 
 1. [Ubuntu Official Documentation](https://help.ubuntu.com)
-2. [Ubuntu Wiki](https://wiki.ubuntu.com)
-3. [Canonical’s Website](https://canonical.com)
-4. [Ubuntu Releases List](https://wiki.ubuntu.com/Releases)
-5. [AskUbuntu StackExchange](https://askubuntu.com)
+2. [Ubuntu Releases List](https://wiki.ubuntu.com/Releases)
 
