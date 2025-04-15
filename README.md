@@ -260,6 +260,81 @@ dpkg -l | grep nginx
 
 ---
 
+## 🖱️ **Service Command used in Ubuntu**
+
+In Ubuntu, **`service` commands** are used to manage system services (start, stop, restart, etc.). These commands are wrappers around `systemctl` (for systemd) or older init systems.
+
+Here’s a list of **commonly used `service` commands** in Ubuntu:
+
+---
+
+### ✅ Basic Syntax
+
+```bash
+sudo service <service_name> <command>
+```
+
+**Example:**
+```bash
+sudo service apache2 start
+```
+
+---
+
+### 🔧 Common Service Commands
+
+| Command | Description |
+|--------|-------------|
+| `start` | Starts the service |
+| `stop` | Stops the service |
+| `restart` | Restarts the service |
+| `reload` | Reloads config without stopping the service (if supported) |
+| `status` | Shows the current status of the service |
+| `enable` | Not supported with `service`; use `systemctl` |
+| `disable` | Not supported with `service`; use `systemctl` |
+
+---
+
+### 💡 Examples
+
+```bash
+sudo service ssh status
+sudo service nginx restart
+sudo service mysql stop
+sudo service cron reload
+```
+
+---
+
+### 🆚 `service` vs `systemctl`
+
+Ubuntu (since 15.04) uses **`systemd`**, so `systemctl` is preferred now:
+
+#### Equivalent `systemctl` Commands
+
+| Old `service` Command       | New `systemctl` Command                      |
+|----------------------------|----------------------------------------------|
+| `sudo service nginx start` | `sudo systemctl start nginx`                 |
+| `sudo service nginx stop`  | `sudo systemctl stop nginx`                  |
+| `sudo service nginx status`| `sudo systemctl status nginx`               |
+| N/A                        | `sudo systemctl enable nginx`                |
+| N/A                        | `sudo systemctl disable nginx`               |
+
+---
+
+### 🔍 List All Services
+
+```bash
+# Using service (limited list)
+service --status-all
+
+# Using systemctl (preferred)
+systemctl list-units --type=service
+```
+
+---
+
+
 ## 🧾 8. Conclusion
 Ubuntu stands out as a **powerful, stable, and beginner-friendly** Linux distribution. If you are a developer, a system administrator, or an enterprise user, Ubuntu provides a robust and flexible platform for nearly all computing needs. Its strong community and corporate backing from Canonical ensure continual innovation and support.
 
