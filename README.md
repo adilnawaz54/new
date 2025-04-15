@@ -260,7 +260,7 @@ dpkg -l | grep nginx
 
 ---
 
-🧠 **Service Command used in Ubuntu**
+## 🧠 **Service commands in Ubuntu**
 
 In Ubuntu, **`service` commands** are used to manage system services (start, stop, restart, etc.). These commands are wrappers around `systemctl` (for systemd) or older init systems.
 
