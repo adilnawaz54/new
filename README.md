@@ -6,19 +6,19 @@
 ## 📚 Table of Contents
 
 1. [ Documentation: Operating System - Ubuntu](#-documentation-operating-system---ubuntu)
-2. [ 1. What is Ubuntu?](#-1-what-is-ubuntu)
+2. [ What is Ubuntu?](#-1-what-is-ubuntu)
 3. [ Why Use Ubuntu?](#-why-use-ubuntu)
-4. [ 3. Ubuntu Versions & Releases](#-3-ubuntu-versions--releases)
-5. [ 4. System Requirements](#-4-system-requirements)
-6. [ 5. Security Features](#-5-security-features)
-7. [ 6. Ubuntu Use Cases](#-6-ubuntu-use-cases)
-8. [ 7. Common Commands](#-7-common-commands)
+4. [ Ubuntu Versions & Releases](#-3-ubuntu-versions--releases)
+5. [ System Requirements](#-4-system-requirements)
+6. [ Security Features](#-5-security-features)
+7. [ Ubuntu Use Cases](#-6-ubuntu-use-cases)
+8. [ Common Commands](#-7-common-commands)
 9. [ What is Software Management in Ubuntu?](#-what-is-software-management-in-ubuntu)
-10. [ Key Software Management Tools in Ubuntu](#-key-software-management-tools-in-ubuntu)
-11. [ Check if a Package Is Installed](#-check-if-a-package-is-installed)
-12. [ Summary: Removal Commands](#-summary-removal-commands)
-13. [ Service Command Used in Ubuntu](#-service-command-used-in-ubuntu)
-14. [ Conclusion](#-conclusion)
+10. [Key Software Management Tools in Ubuntu](#-key-software-management-tools-in-ubuntu)
+11. [Check if a Package Is Installed](#-check-if-a-package-is-installed)
+12. [Summary: Removal Commands](#-summary-removal-commands)
+13. [Service Command Used in Ubuntu](#-service-command-used-in-ubuntu)
+14. [Conclusion](#-conclusion)
 
 ---
 
