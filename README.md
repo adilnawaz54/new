@@ -331,26 +331,30 @@ service --status-all
 # Using systemctl (preferred)
 systemctl list-units --type=service
 ```
-
 ---
 
+## 🏁 **Conclusion**
 
-🏁 Conclusion
-Ubuntu stands out as one of the most reliable, user-friendly, and versatile Linux distributions available today. Whether you're a beginner exploring Linux for the first time, a developer building modern applications, or a system administrator managing large-scale infrastructure, Ubuntu provides a powerful and secure environment to get the job done.
+Ubuntu stands out as one of the most reliable, user-friendly, and versatile Linux distributions available today. Whether you're a beginner exploring Linux for the first time, a developer building modern applications, or a system administrator managing large-scale infrastructure, **Ubuntu provides a powerful and secure environment** to get the job done.
 
 From its rich ecosystem of open-source tools and frequent LTS releases to its seamless integration with cloud, container, and DevOps technologies, Ubuntu offers everything you need to build, deploy, and manage software effectively.
 
-With robust software management options (APT, Snap, DPKG), intuitive service control (service, systemctl), and strong community support, Ubuntu continues to empower millions of users and organizations around the globe.
+With robust software management options (`APT`, `Snap`, `DPKG`), intuitive service control (`service`, `systemctl`), and strong community support, Ubuntu continues to empower millions of users and organizations around the globe.
 
-## 📬 9. Contact Information
+---
 
-**Canonical Ltd.**  
-Website: [https://ubuntu.com](https://ubuntu.com)  
-Support: [https://ubuntu.com/support](https://ubuntu.com/support)  
-Community: [https://ubuntuforums.org](https://ubuntuforums.org)
+## Contacts
 
-## 📚 10. References
+| Name         | Email Address                                 |
+|--------------|-----------------------------------------------|
+| Adil Nawaz | adil.nawaz.snaatak@mygurukulam.co           |
 
-1. [Ubuntu Official Documentation](https://help.ubuntu.com)
-2. [Ubuntu Releases List](https://wiki.ubuntu.com/Releases)
+---
+
+## References
+
+| **Title**                        | **Link**                                                                                      |
+|----------------------------------|-----------------------------------------------------------------------------------------------|
+| Ubuntu Official Documentation  | (https://help.ubuntu.com)          |
+| Ubuntu Releases List           | (https://wiki.ubuntu.com/Releases) |
 
