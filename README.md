@@ -7,7 +7,7 @@
 
 1. [ Documentation: Operating System - Ubuntu](#-documentation-operating-system---ubuntu)
 2. [ What is Ubuntu?](#-1-what-is-ubuntu)
-3. [ Why Use Ubuntu?](#-why-use-ubuntu)
+3. [ Why Use Ubuntu?](#-2-why-use-ubuntu)
 4. [ Ubuntu Versions & Releases](#-3-ubuntu-versions--releases)
 5. [ System Requirements](#-4-system-requirements)
 6. [ Security Features](#-5-security-features)
