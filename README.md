@@ -142,7 +142,7 @@ sudo apt upgrade         # Updates installed packages
 - Resolves dependencies automatically
 - Pulls from online repositories
 
-## 🔧 **1. If Installed Using APT how to remove the package**
+## 🔧 ** If Installed Using APT how to remove the package**
 
 ### 🔹 Remove a package:
 ```bash
@@ -154,21 +154,16 @@ sudo apt remove <package-name>
 ```bash
 sudo apt remove nginx
 ```
----
-
 ### 🔹 Remove + config files (cleaner):
 ```bash
 sudo apt purge <package-name>
 ```
-
 ➡️ Removes software **and** its config files (from `/etc/`).
 
 ### 🔹 Example:
 ```bash
 sudo apt purge nginx
 ```
----
-
 ### 🔹 Clean unused dependencies:
 ```bash
 sudo apt autoremove
@@ -184,7 +179,7 @@ sudo dpkg -l               # List all installed packages
 - Lower-level tool
 - No dependency resolution (APT is smarter)
 
-## 📦 **2. If Installed Using DPKG how to remove the package**
+## 📦 ** If Installed Using DPKG how to remove the package**
 
 ```bash
 sudo dpkg -r <package-name>
@@ -206,12 +201,11 @@ sudo snap install vlc
 - Updates automatically in the background
 
 ---
-## 📦 **3. If Installed Using Snap, how to remove**
+## 📦 ** If Installed Using Snap, how to remove**
 
 ```bash
 sudo snap remove <package-name>
 ```
-
 Example:
 ```bash
 sudo snap remove vlc
@@ -225,7 +219,7 @@ sudo snap remove vlc
 
 ---
 
-## 🖱️ **4. Remove via GUI (Ubuntu Software Center)**
+## 🖱️ ** Remove via GUI (Ubuntu Software Center)**
 
 1. Open **Ubuntu Software Center**
 2. Go to **Installed**
@@ -240,7 +234,6 @@ sudo snap remove vlc
 ```bash
 dpkg -l | grep <package-name>
 ```
-
 Example:
 ```bash
 dpkg -l | grep nginx
@@ -278,7 +271,6 @@ sudo service <service_name> <command>
 ```bash
 sudo service apache2 start
 ```
-
 ---
 
 ### 🔧 Common Service Commands
@@ -303,7 +295,6 @@ sudo service nginx restart
 sudo service mysql stop
 sudo service cron reload
 ```
-
 ---
 
 ### 🆚 `service` vs `systemctl`
