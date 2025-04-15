@@ -1,4 +1,4 @@
-Certainly! Based on the content of your `README.md` file in the repository [adilnawaz54/new](https://github.com/adilnawaz54/new), here's a structured **Table of Contents (TOC)** you can include at the beginning of your README:
+#  Documentation: Operating System - Ubuntu
 
 ---
 
@@ -22,7 +22,7 @@ Certainly! Based on the content of your `README.md` file in the repository [adil
 ---
 
 
-# 🐧 Documentation: Operating System - Ubuntu
+
 
 ## 📘 1. What is Ubuntu?
 Ubuntu is a **free and open-source Linux-based operating system** developed and maintained by **Canonical Ltd.** It is one of the most popular Linux distributions in the world, known for its ease of use, regular updates, and strong community support.
