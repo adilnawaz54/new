@@ -1,6 +1,9 @@
 #  Documentation: Operating System - Ubuntu
 ![b0026b48-ubuntu-1024x683](https://github.com/user-attachments/assets/e122fe70-df29-498f-9131-979ab93cb9fe)
 
+| Created     | Version | Author        | Comment | Reviewer         |
+|-------------|---------|---------------|---------|------------------|
+| 15-04-2025  | V1      | Adil Nawaz    |         | Siddharth Pawar  |
 ---
 
 ## 📚 Table of Contents
@@ -35,27 +38,27 @@ Ubuntu is a **free and open-source Linux-based operating system** developed and 
 
 ---
 
-## 🧠 **Why Use Ubuntu?**
+## 🧠 2. **Why Use Ubuntu?**
 
 Ubuntu is widely chosen by developers, system admins, and even casual users because it's:
 
 ---
 
-### ✅ **1. Free & Open Source**
+### ✅ **a. Free & Open Source**
 - No licensing fees
 - You have full access to the source code
 - Supported by a large open-source community
 
 ---
 
-### ✅ **2. User-Friendly**
+### ✅ **b. User-Friendly**
 - Simple and clean **GNOME desktop interface**
 - Easy to install and use, even for Linux beginners
 - Large library of preinstalled and easily installable software
 
 ---
 
-### ✅ **3. Developer-Friendly**
+### ✅ **c. Developer-Friendly**
 - Built-in support for:
   - Python, Java, Node.js, Docker, Git, etc.
 - Great for **coding, scripting, and automation**
@@ -63,21 +66,21 @@ Ubuntu is widely chosen by developers, system admins, and even casual users beca
 
 ---
 
-### ✅ **4. Strong Community & Documentation**
+### ✅ **d. Strong Community & Documentation**
 - Huge online community (AskUbuntu, StackOverflow)
 - Extensive official docs and tutorials
 - Tons of support for troubleshooting
 
 ---
 
-### ✅ **5. Regular & Reliable Updates**
+### ✅ **e. Regular & Reliable Updates**
 - **LTS (Long Term Support)** versions with 5 years of updates
 - Predictable release cycles
 - Frequent security patches and bug fixes
 
 ---
 
-### ✅ **6. Secure by Design**
+### ✅ **f. Secure by Design**
 - Built-in firewall (UFW)
 - AppArmor security module
 - Unattended upgrades available
@@ -85,14 +88,14 @@ Ubuntu is widely chosen by developers, system admins, and even casual users beca
 
 ---
 
-### ✅ **7. Cloud & DevOps Ready**
+### ✅ **g. Cloud & DevOps Ready**
 - Official support by **AWS, Azure, GCP**
 - Common base image for Docker containers
 - Works well with Jenkins, Ansible, Kubernetes, etc.
 
 ---
 
-### ✅ **8. Lightweight & Flexible**
+### ✅ **h. Lightweight & Flexible**
 - Can run on old hardware or minimal VMs
 - Great for IoT devices with **Ubuntu Core**
   
@@ -147,7 +150,7 @@ sudo systemctl status     # Check service status
 lsb_release -a            # Show Ubuntu version
 ```
 
-## 🧠 **What is a Software Management in Ubuntu?**
+## 🧠 8. **What is a Software Management in Ubuntu?**
 
 > Software management in Ubuntu refers to the **tools, services, and processes** used to **install, update, upgrade, remove, and maintain software packages** on your system.
 
@@ -278,7 +281,7 @@ dpkg -l | grep nginx
 
 ---
 
-## 🧠 **Service commands in Ubuntu**
+## 🧠 9. **Service commands in Ubuntu**
 
 In Ubuntu, **`service` commands** are used to manage system services (start, stop, restart, etc.). These commands are wrappers around `systemctl` (for systemd) or older init systems.
 
