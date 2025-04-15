@@ -44,21 +44,21 @@ Ubuntu is widely chosen by developers, system admins, and even casual users beca
 
 ---
 
-### ✅ **a. Free & Open Source**
+### ✅ **2.1. Free & Open Source**
 - No licensing fees
 - You have full access to the source code
 - Supported by a large open-source community
 
 ---
 
-### ✅ **b. User-Friendly**
+### ✅ **2.2. User-Friendly**
 - Simple and clean **GNOME desktop interface**
 - Easy to install and use, even for Linux beginners
 - Large library of preinstalled and easily installable software
 
 ---
 
-### ✅ **c. Developer-Friendly**
+### ✅ **2.3. Developer-Friendly**
 - Built-in support for:
   - Python, Java, Node.js, Docker, Git, etc.
 - Great for **coding, scripting, and automation**
@@ -66,21 +66,21 @@ Ubuntu is widely chosen by developers, system admins, and even casual users beca
 
 ---
 
-### ✅ **d. Strong Community & Documentation**
+### ✅ **2.4. Strong Community & Documentation**
 - Huge online community (AskUbuntu, StackOverflow)
 - Extensive official docs and tutorials
 - Tons of support for troubleshooting
 
 ---
 
-### ✅ **e. Regular & Reliable Updates**
+### ✅ **2.5. Regular & Reliable Updates**
 - **LTS (Long Term Support)** versions with 5 years of updates
 - Predictable release cycles
 - Frequent security patches and bug fixes
 
 ---
 
-### ✅ **f. Secure by Design**
+### ✅ **2.6. Secure by Design**
 - Built-in firewall (UFW)
 - AppArmor security module
 - Unattended upgrades available
@@ -88,14 +88,14 @@ Ubuntu is widely chosen by developers, system admins, and even casual users beca
 
 ---
 
-### ✅ **g. Cloud & DevOps Ready**
+### ✅ **2.7. Cloud & DevOps Ready**
 - Official support by **AWS, Azure, GCP**
 - Common base image for Docker containers
 - Works well with Jenkins, Ansible, Kubernetes, etc.
 
 ---
 
-### ✅ **h. Lightweight & Flexible**
+### ✅ **2.8. Lightweight & Flexible**
 - Can run on old hardware or minimal VMs
 - Great for IoT devices with **Ubuntu Core**
   
@@ -160,7 +160,7 @@ lsb_release -a            # Show Ubuntu version
 
 Ubuntu is based on **Debian**, so it uses **APT** (Advanced Package Tool) for package management.
 
-### 🔹 1. **APT (Advanced Package Tool)**
+### 🔹 8.1. **APT (Advanced Package Tool)**
 ```bash
 sudo apt update          # Refreshes the package index
 sudo apt install nginx   # Installs a package
@@ -199,7 +199,7 @@ sudo apt autoremove
 ➡️ Cleans leftover packages no longer needed (e.g. after uninstalling).
 
 ---
-### 🔹 2. **DPKG (Debian Package Manager)**
+### 🔹 8.2. **DPKG (Debian Package Manager)**
 ```bash
 sudo dpkg -i package.deb   # Install a local .deb package
 sudo dpkg -l               # List all installed packages
@@ -220,7 +220,7 @@ sudo dpkg -r google-chrome-stable
 ```
 ---
 
-### 🔹 3. **Snap**
+### 🔹 8.3. **Snap**
 ```bash
 sudo snap install vlc
 ```
@@ -240,7 +240,7 @@ sudo snap remove vlc
 ```
 ---
 
-### 🔹 4. **Ubuntu Software Center (GUI)**
+### 🔹 8.4. **Ubuntu Software Center (GUI)**
 - User-friendly graphical interface
 - Lets you search, install, and remove software
 - Ideal for non-terminal users
