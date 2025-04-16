@@ -1,34 +1,56 @@
 #  Documentation: Operating System - Ubuntu
-![b0026b48-ubuntu-1024x683](https://github.com/user-attachments/assets/e122fe70-df29-498f-9131-979ab93cb9fe)
+
 
 | Created     | Version | Author        | Comment | Reviewer         |
 |-------------|---------|---------------|---------|------------------|
-| 15-04-2025  | V1      | Adil Nawaz    |         | Siddharth Pawar  |
+| 15-04-2025  | V1      | Adil Nawaz    |         | Pritam           |
+---
+
 ---
 
 ## 📚 Table of Contents
 
-1. [ Documentation: Operating System - Ubuntu](#-documentation-operating-system---ubuntu)
-2. [ What is Ubuntu?](#-1-what-is-ubuntu)
-3. [ Why Use Ubuntu?](#-2-why-use-ubuntu)
-4. [ Ubuntu Versions & Releases](#-3-ubuntu-versions--releases)
-5. [ System Requirements](#-4-system-requirements)
-6. [ Security Features](#-5-security-features)
-7. [ Ubuntu Use Cases](#-6-ubuntu-use-cases)
-8. [ Common Commands](#-7-common-commands)
-9. [ What is Software Management in Ubuntu?](#-what-is-software-management-in-ubuntu)
-10. [Key Software Management Tools in Ubuntu](#-key-software-management-tools-in-ubuntu)
-11. [Check if a Package Is Installed](#-check-if-a-package-is-installed)
-12. [Summary: Removal Commands](#-summary-removal-commands)
-13. [Service Command Used in Ubuntu](#-service-command-used-in-ubuntu)
-14. [Conclusion](#-conclusion)
+1. [📘 Introduction](#-1-introduction)
+2. [🧠 Why to use Ubuntu?](#-2-why-to-use-ubuntu)
+    - [2.1 Free & Open Source](#-21-free--open-source)
+    - [2.2 User-Friendly](#-22-user-friendly)
+    - [2.3 Developer-Friendly](#-23-developer-friendly)
+    - [2.4 Strong Community & Documentation](#-24-strong-community--documentation)
+    - [2.5 Regular & Reliable Updates](#-25-regular--reliable-updates)
+    - [2.6 Secure by Design](#-26-secure-by-design)
+    - [2.7 Cloud & DevOps Ready](#-27-cloud--devops-ready)
+    - [2.8 Lightweight & Flexible](#-28-lightweight--flexible)
+3. [💻 Ubuntu Versions & Releases](#-3-ubuntu-versions--releases)
+4. [🔒 Security Features](#-4-security-features)
+5. [☁️ Ubuntu Use Cases](#-5-ubuntu-use-cases)
+6. [🐧 What Are Flavours in Linux?](#-6-what-are-flavours-in-linux)
+    - [6.1 Major Flavours of Linux (Distros)](#-61-major-flavours-of-linux-distros)
+7. [🏗️ Ubuntu Architecture Overview](#-7-ubuntu-architecture-overview)
+    - [7.1 Hardware Layer](#-71-hardware-layer)
+    - [7.2 Linux Kernel](#-72-linux-kernel)
+    - [7.3 System Libraries](#-73-system-libraries)
+    - [7.4 Shell / CLI Interface](#-74-shell--cli-interface)
+    - [7.5 System Services & Daemons](#-75-system-services--daemons)
+    - [7.6 Graphical User Interface (GUI)](#-76-graphical-user-interface-gui)
+    - [7.7 Application Layer](#-77-application-layer)
+8. [🧠 What is Software Management in Ubuntu?](#-8-what-is-software-management-in-ubuntu)
+    - [8.1 APT (Advanced Package Tool)](#-81-apt-advanced-package-tool)
+    - [8.2 DPKG (Debian Package Manager)](#-82-dpkg-debian-package-manager)
+    - [8.3 Snap](#-83-snap)
+    - [8.4 Ubuntu Software Center (GUI)](#-84-ubuntu-software-center-gui)
+9. [🛠️ Common Commands](#-9-common-commands)
+    - [9.1 Check if a Package Is Installed](#-91-check-if-a-package-is-installed)
+10. [🧠 Service Commands in Ubuntu](#-10-service-commands-in-ubuntu)
+    - [10.1 Common Service Commands](#-101-common-service-commands)
+    - [10.2 List All Services](#-102-list-all-services)
+11. [🏁 Conclusion](#-11-conclusion)
+12. [📧 Contacts](#-12-contacts)
+13. [🔗 References](#-13-references)
 
 ---
 
 
-
-
-## 📘 1. What is Ubuntu?
+## 📘 1. Introduction
 Ubuntu is a **free and open-source Linux-based operating system** developed and maintained by **Canonical Ltd.** It is one of the most popular Linux distributions in the world, known for its ease of use, regular updates, and strong community support.
 
 - First released in **October 2004**
@@ -38,7 +60,7 @@ Ubuntu is a **free and open-source Linux-based operating system** developed and 
 
 ---
 
-## 🧠 2. **Why Use Ubuntu?**
+## 🧠 2. **Why to use Ubuntu?**
 
 Ubuntu is widely chosen by developers, system admins, and even casual users because it's:
 
@@ -62,7 +84,6 @@ Ubuntu is widely chosen by developers, system admins, and even casual users beca
 - Built-in support for:
   - Python, Java, Node.js, Docker, Git, etc.
 - Great for **coding, scripting, and automation**
-- Large ecosystem of development tools
 
 ---
 
@@ -107,30 +128,25 @@ Ubuntu is widely chosen by developers, system admins, and even casual users beca
 |---------------|-------|----------------|----------------|
 | Ubuntu 22.04  | LTS   | April 2022     | April 2027 (standard) |
 | Ubuntu 20.04  | LTS   | April 2020     | April 2025     |
-| Ubuntu 23.10  | Interim | Oct 2023      | July 2024      |
+| Ubuntu 23.10  | Interim | Oct 2023      | July 2022     |
+| Ubuntu 24.04  | Interim | Oct 2023      | April 2024      |
+
 
 - **LTS** = Long-Term Support (5 years support)
 - Non-LTS releases are supported for 9 months
 
-## 🔧 4. System Requirements
+Great topic! Let's break it down 👇
 
-### Ubuntu Desktop (Minimal):
+---
 
-- **2 GHz dual-core CPU**
-- **4 GB RAM**
-- **25 GB disk space**
-- **Internet connection**
-
-For servers and containers, requirements are much lower.
-
-## 🔒 5. Security Features
+## 🔒 4. Security Features
 
 - Built-in **firewall** (UFW)
 - **AppArmor** for application-level security
 - **Unattended security updates**
 - Optional full-disk encryption during install
 
-## ☁️ 6. Ubuntu Use Cases
+## ☁️ 5. Ubuntu Use Cases
 
 | Use Case         | Example                   |
 |------------------|---------------------------|
@@ -141,14 +157,103 @@ For servers and containers, requirements are much lower.
 | Containers       | Docker base images        |
 | IoT              | Ubuntu Core (lightweight) |
 
-## 🛠️ 7. Common Commands
 
-```bash
-sudo apt update           # Update package index
-sudo apt install nginx    # Install a package
-sudo systemctl status     # Check service status
-lsb_release -a            # Show Ubuntu version
+## 🐧 6. What Are **Flavours in Linux**?
+
+**"flavours"** (or **distributions/distros**) refer to **different versions** of the Linux operating system, built with different goals, tools, and user experiences — but **all share the same Linux kernel**.
+
+---
+
+## 📦 6.1 Major Flavours of Linux (Distros)
+
+| Flavour         | Base       | Package Manager | Target Audience / Use Case |
+|-----------------|------------|------------------|-----------------------------|
+| **Ubuntu**      | Debian     | APT (`.deb`)     | Beginners, developers, servers, cloud |
+| **Debian**      | N/A        | APT (`.deb`)     | Stable, minimal, servers, advanced users |
+| **Linux Mint**  | Ubuntu     | APT (`.deb`)     | Beginners, Windows-like interface |
+| **Fedora**      | Red Hat    | DNF (`.rpm`)     | Developers, bleeding-edge |
+| **CentOS**      | Red Hat    | YUM/DNF (`.rpm`) | Servers (no longer supported, now CentOS Stream) |
+| **Rocky Linux** | Red Hat    | DNF (`.rpm`)     | Replacement for CentOS (stable server use) |
+| **Arch Linux**  | N/A        | Pacman           | Advanced users, DIY, rolling release |
+| **Manjaro**     | Arch       | Pacman           | User-friendly Arch-based |
+| **openSUSE**    | SUSE       | Zypper           | Developers, power users, enterprise |
+| **Kali Linux**  | Debian     | APT (`.deb`)     | Cybersecurity, ethical hacking |
+| **Zorin OS**    | Ubuntu     | APT (`.deb`)     | Windows users switching to Linux |
+| **elementary OS** | Ubuntu   | APT (`.deb`)     | Mac-like interface, design-focused |
+| **Pop!_OS**     | Ubuntu     | APT (`.deb`)     | Developers, System76 laptops, tiling window manager |
+| **Alpine Linux**| N/A        | APK              | Lightweight, containers (e.g. Docker) |
+
+---
+
+
+## 🏗️ 7. **Ubuntu Architecture Overview**
+
+Ubuntu is built on the **Linux kernel** and structured into multiple **layers** — from the core system up to the graphical interface and applications.
+
 ```
+![ubuntu arch](https://github.com/user-attachments/assets/6ca3eae5-6ef7-4094-8327-a45f7073a4b0)
+
+```
+---
+
+### 🔧 **7.1. Hardware Layer**
+- Physical components: CPU, memory, disk, GPU, etc.
+- Accessed via drivers managed by the kernel.
+
+---
+
+### 🧠 **7.2. Linux Kernel**
+- Core of the system.
+- Handles:
+  - **Process management**
+  - **Memory management**
+  - **File systems**
+  - **Device drivers**
+  - **Networking**
+- Ubuntu uses a slightly customized version of the **mainline Linux kernel**.
+
+---
+
+### 📚 **7.3. System Libraries**
+- Provides standard APIs and functions used by applications.
+- Common ones:
+  - `glibc` (C standard library)
+  - `libstdc++` (C++ standard library)
+  - `libsystemd` (systemd integration)
+- Interfaces between user programs and the kernel.
+
+---
+
+### 💻 **7.4. Shell / CLI Interface**
+- Bash, Zsh, Fish, etc.
+- Enables users to run commands directly.
+- Essential for system administration, scripting, and automation.
+
+---
+
+### ⚙️ **7.5. System Services & Daemons**
+- Background services (daemons) that run system tasks:
+  - `systemd` – init system and service manager
+  - `cron` – scheduled jobs
+  - `NetworkManager` – network configs
+  - `udev` – device management
+
+---
+
+### 🖥️ **7.6. Graphical User Interface (GUI)**
+- Desktop Environment (DE): GNOME (default), KDE, XFCE, etc.
+- Window Manager: Manages windows, appearance, and user interaction.
+- Display Server: X11 (older), Wayland (modern, default in Ubuntu 22.04+)
+
+---
+
+### 📦 **7.7. Application Layer**
+- Software installed via package managers:
+  - APT (`.deb`)
+  - Snap
+- User applications: Firefox, LibreOffice, VSCode, GIMP, etc.
+
+---
 
 ## 🧠 8. **What is a Software Management in Ubuntu?**
 
@@ -257,7 +362,14 @@ sudo snap remove vlc
 
 ---
 
-## 🔍 **Check if a Package Is Installed**
+## 🛠️ 9. Common Commands
+
+```bash
+sudo apt update           # Update package index
+sudo apt install nginx    # Install a package
+sudo systemctl status     # Check service status
+```
+## 🔍 9.1 **Check if a Package Is Installed**
 
 ```bash
 dpkg -l | grep <package-name>
@@ -269,23 +381,11 @@ dpkg -l | grep nginx
 
 ---
 
-## ✅ Summary: Removal Commands
-
-| Installation Type | Remove Command                         |
-|-------------------|-----------------------------------------|
-| APT               | `sudo apt remove <pkg>`                |
-| APT + Config      | `sudo apt purge <pkg>`                 |
-| Snap              | `sudo snap remove <pkg>`               |
-| DPKG (.deb)       | `sudo dpkg -r <pkg>`                   |
-| GUI               | Ubuntu Software > Installed > Remove   |
-
----
-
 ## 🧠 9. **Service commands in Ubuntu**
 
-In Ubuntu, **`service` commands** are used to manage system services (start, stop, restart, etc.). These commands are wrappers around `systemctl` (for systemd) or older init systems.
+**`service` commands** are used to manage system services (start, stop, restart, etc.). These commands are wrappers around `systemctl` (for systemd) or older init systems.
 
-Here’s a list of **commonly used `service` commands** in Ubuntu:
+List of **commonly used `service` commands** in Ubuntu:
 
 ---
 
@@ -294,14 +394,16 @@ Here’s a list of **commonly used `service` commands** in Ubuntu:
 ```bash
 sudo service <service_name> <command>
 ```
-
 **Example:**
 ```bash
 sudo service apache2 start
+sudo service ssh status
+sudo service nginx restart
+sudo service mysql stop
 ```
 ---
 
-### 🔧 Common Service Commands
+### 🔧 9.1 Common Service Commands
 
 | Command | Description |
 |--------|-------------|
@@ -315,33 +417,7 @@ sudo service apache2 start
 
 ---
 
-### 💡 Examples
-
-```bash
-sudo service ssh status
-sudo service nginx restart
-sudo service mysql stop
-sudo service cron reload
-```
----
-
-### 🆚 `service` vs `systemctl`
-
-Ubuntu (since 15.04) uses **`systemd`**, so `systemctl` is preferred now:
-
-#### Equivalent `systemctl` Commands
-
-| Old `service` Command       | New `systemctl` Command                      |
-|----------------------------|----------------------------------------------|
-| `sudo service nginx start` | `sudo systemctl start nginx`                 |
-| `sudo service nginx stop`  | `sudo systemctl stop nginx`                  |
-| `sudo service nginx status`| `sudo systemctl status nginx`               |
-| N/A                        | `sudo systemctl enable nginx`                |
-| N/A                        | `sudo systemctl disable nginx`               |
-
----
-
-### 🔍 List All Services
+### 🔍 9.2 List All Services
 
 ```bash
 # Using service (limited list)
@@ -352,7 +428,7 @@ systemctl list-units --type=service
 ```
 ---
 
-## 🏁 **Conclusion**
+## 🏁 10. **Conclusion**
 
 Ubuntu stands out as one of the most reliable, user-friendly, and versatile Linux distributions available today. Whether you're a beginner exploring Linux for the first time, a developer building modern applications, or a system administrator managing large-scale infrastructure, **Ubuntu provides a powerful and secure environment** to get the job done.
 
@@ -362,7 +438,7 @@ With robust software management options (`APT`, `Snap`, `DPKG`), intuitive servi
 
 ---
 
-## Contacts
+## 11. Contacts
 
 | Name         | Email Address                                 |
 |--------------|-----------------------------------------------|
@@ -370,7 +446,7 @@ With robust software management options (`APT`, `Snap`, `DPKG`), intuitive servi
 
 ---
 
-## References
+## 12. References
 
 | **Title**                        | **Link**                                                                                      |
 |----------------------------------|-----------------------------------------------------------------------------------------------|
