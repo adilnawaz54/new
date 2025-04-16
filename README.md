@@ -6,48 +6,52 @@
 | 15-04-2025  | V1      | Adil Nawaz    |         | Pritam           |
 ---
 
+Here’s a clean and working **Table of Contents (ToC)** based on your sections and GitHub Markdown anchor format:
+
 ---
 
 ## 📚 Table of Contents
 
-1. [📘 Introduction](#-1-introduction)
-2. [🧠 Why to use Ubuntu?](#-2-why-to-use-ubuntu)
-    - [2.1 Free & Open Source](#-21-free--open-source)
-    - [2.2 User-Friendly](#-22-user-friendly)
-    - [2.3 Developer-Friendly](#-23-developer-friendly)
-    - [2.4 Strong Community & Documentation](#-24-strong-community--documentation)
-    - [2.5 Regular & Reliable Updates](#-25-regular--reliable-updates)
-    - [2.6 Secure by Design](#-26-secure-by-design)
-    - [2.7 Cloud & DevOps Ready](#-27-cloud--devops-ready)
-    - [2.8 Lightweight & Flexible](#-28-lightweight--flexible)
-3. [💻 Ubuntu Versions & Releases](#-3-ubuntu-versions--releases)
-4. [🔒 Security Features](#-4-security-features)
-5. [☁️ Ubuntu Use Cases](#-5-ubuntu-use-cases)
-6. [🐧 What Are Flavours in Linux?](#-6-what-are-flavours-in-linux)
-    - [6.1 Major Flavours of Linux (Distros)](#-61-major-flavours-of-linux-distros)
-7. [🏗️ Ubuntu Architecture Overview](#-7-ubuntu-architecture-overview)
-    - [7.1 Hardware Layer](#-71-hardware-layer)
-    - [7.2 Linux Kernel](#-72-linux-kernel)
-    - [7.3 System Libraries](#-73-system-libraries)
-    - [7.4 Shell / CLI Interface](#-74-shell--cli-interface)
-    - [7.5 System Services & Daemons](#-75-system-services--daemons)
-    - [7.6 Graphical User Interface (GUI)](#-76-graphical-user-interface-gui)
-    - [7.7 Application Layer](#-77-application-layer)
-8. [🧠 What is Software Management in Ubuntu?](#-8-what-is-software-management-in-ubuntu)
-    - [8.1 APT (Advanced Package Tool)](#-81-apt-advanced-package-tool)
-    - [8.2 DPKG (Debian Package Manager)](#-82-dpkg-debian-package-manager)
-    - [8.3 Snap](#-83-snap)
-    - [8.4 Ubuntu Software Center (GUI)](#-84-ubuntu-software-center-gui)
-9. [🛠️ Common Commands](#-9-common-commands)
-    - [9.1 Check if a Package Is Installed](#-91-check-if-a-package-is-installed)
-10. [🧠 Service Commands in Ubuntu](#-10-service-commands-in-ubuntu)
-    - [10.1 Common Service Commands](#-101-common-service-commands)
-    - [10.2 List All Services](#-102-list-all-services)
-11. [🏁 Conclusion](#-11-conclusion)
-12. [📧 Contacts](#-12-contacts)
-13. [🔗 References](#-13-references)
+1. [Introduction](#-1-introduction)  
+2. [Why to use Ubuntu?](#-2-why-to-use-ubuntu)  
+   - [2.1. Free & Open Source](#-21-free--open-source)  
+   - [2.2. User-Friendly](#-22-user-friendly)  
+   - [2.3. Developer-Friendly](#-23-developer-friendly)  
+   - [2.4. Strong Community & Documentation](#-24-strong-community--documentation)  
+   - [2.5. Regular & Reliable Updates](#-25-regular--reliable-updates)  
+   - [2.6. Secure by Design](#-26-secure-by-design)  
+   - [2.7. Cloud & DevOps Ready](#-27-cloud--devops-ready)  
+   - [2.8. Lightweight & Flexible](#-28-lightweight--flexible)  
+3. [Ubuntu Versions & Releases](#-3-ubuntu-versions--releases)  
+4. [Security Features](#-4-security-features)  
+5. [Ubuntu Use Cases](#-5-ubuntu-use-cases)  
+6. [What Are Flavours in Linux?](#-6-what-are-flavours-in-linux)  
+   - [6.1 Major Flavours of Linux (Distros)](#-61-major-flavours-of-linux-distros)  
+7. [Ubuntu Architecture Overview](#-7-ubuntu-architecture-overview)  
+   - [7.1. Hardware Layer](#-71-hardware-layer)  
+   - [7.2. Linux Kernel](#-72-linux-kernel)  
+   - [7.3. System Libraries](#-73-system-libraries)  
+   - [7.4. Shell / CLI Interface](#-74-shell--cli-interface)  
+   - [7.5. System Services & Daemons](#-75-system-services--daemons)  
+   - [7.6. Graphical User Interface (GUI)](#-76-graphical-user-interface-gui)  
+   - [7.7. Application Layer](#-77-application-layer)  
+8. [What is Software Management in Ubuntu?](#-8-what-is-a-software-management-in-ubuntu)  
+   - [8.1. APT (Advanced Package Tool)](#-81-apt-advanced-package-tool)  
+   - [8.2. DPKG (Debian Package Manager)](#-82-dpkg-debian-package-manager)  
+   - [8.3. Snap](#-83-snap)  
+   - [8.4. Ubuntu Software Center (GUI)](#-84-ubuntu-software-center-gui)  
+9. [Common Commands](#-9-common-commands)  
+   - [9.1 Check if a Package Is Installed](#-91-check-if-a-package-is-installed)  
+10. [Service Commands in Ubuntu](#-9-service-commands-in-ubuntu)  
+    - [9.1 Common Service Commands](#-91-common-service-commands)  
+    - [9.2 List All Services](#-92-list-all-services)  
+11. [Conclusion](#-10-conclusion)  
+12. [Contacts](#11-contacts)  
+13. [References](#12-references)  
 
 ---
+
+Let me know if you want this inserted into your README directly or need a downloadable version.
 
 
 ## 📘 1. Introduction
