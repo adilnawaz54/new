@@ -281,7 +281,7 @@ sudo apt upgrade         # Updates installed packages
 - Resolves dependencies automatically
 - Pulls from online repositories
 
-## 🔧 ** If Installed Using APT how to remove the package**
+## 🔧 **If Installed Using APT how to remove the package**
 
 ### 🔹 Remove a package:
 ```bash
