@@ -53,9 +53,9 @@
 
 
 ## 🧠 1. **Introduction**
-Ubuntu is a powerful and beginner-friendly Linux operating system that's trusted by millions across the world. Built on Debian, it combines the stability of open-source with an elegant user experience. Whether you're a developer, student, or IT professional, Ubuntu offers the tools you need—from software management with APT and Snap, to service handling using systemctl and service commands. In this guide, we’ll explore the essentials of Ubuntu: what it is, why it’s popular, how to manage software, and how to control system services effectively.
+Ubuntu is a beginner-friendly Linux OS that’s free, open-source, and widely used for desktops, servers, and cloud systems. It makes software management easy with tools like APT and Snap, and gives you full control over background services using simple terminal commands.
 
-## 🧠 1. **Why to use Ubuntu?**
+## 🧠 2. **Why to use Ubuntu?**
 
 Ubuntu is widely chosen by developers, system admins, and even casual users because it's:
 
@@ -117,7 +117,7 @@ Ubuntu is widely chosen by developers, system admins, and even casual users beca
   
 ---
 
-## 📘 2. What is Ubuntu?
+## 📘 3. What is Ubuntu?
 Ubuntu is a **free and open-source Linux-based operating system** developed and maintained by **Canonical Ltd.** It is one of the most popular Linux distributions in the world, known for its ease of use, regular updates, and strong community support.
 
 - First released in **October 2004**
@@ -125,7 +125,7 @@ Ubuntu is a **free and open-source Linux-based operating system** developed and 
 - Uses **APT package manager** and `.deb` packages
 - Available in **Desktop**, **Server**, **Cloud**, and **Core (IoT)** versions
 
-## 💻 3. Ubuntu Versions & Releases
+## 💻 4. Ubuntu Versions & Releases
 
 | Version       | Type  | Release Month | Support Until |
 |---------------|-------|----------------|----------------|
@@ -142,7 +142,7 @@ Great topic! Let's break it down 👇
 
 ---
 
-## 🔒 4. Security Features
+## 🔒 5. Security Features
 
 - Built-in **firewall** (UFW)
 - **AppArmor** for application-level security
@@ -151,7 +151,7 @@ Great topic! Let's break it down 👇
 
 ---
 
-## ☁️ 5. Ubuntu Use Cases
+## ☁️ 6. Ubuntu Use Cases
 
 | Use Case         | Example                   |
 |------------------|---------------------------|
@@ -163,13 +163,13 @@ Great topic! Let's break it down 👇
 | IoT              | Ubuntu Core (lightweight) |
 
 
-## 🐧 6. What Are **Flavours in Linux**?
+## 🐧 7. What Are **Flavours in Linux**?
 
 **"flavours"** (or **distributions/distros**) refer to **different versions** of the Linux operating system, built with different goals, tools, and user experiences — but **all share the same Linux kernel**.
 
 ---
 
-## 📦 6.1 Major Flavours of Linux (Distros)
+## 📦 7.1 Major Flavours of Linux (Distros)
 
 | Flavour         | Base       | Package Manager | Target Audience / Use Case |
 |-----------------|------------|------------------|-----------------------------|
@@ -191,7 +191,7 @@ Great topic! Let's break it down 👇
 ---
 
 
-## 🏗️ 7. **Ubuntu Architecture Overview**
+## 🏗️ 8. **Ubuntu Architecture Overview**
 
 Ubuntu is built on the **Linux kernel** and structured into multiple **layers** — from the core system up to the graphical interface and applications.
 
@@ -199,13 +199,13 @@ Ubuntu is built on the **Linux kernel** and structured into multiple **layers** 
 
 
 
-### 🔧 **7.1. Hardware Layer**
+### 🔧 **8.1. Hardware Layer**
 - Physical components: CPU, memory, disk, GPU, etc.
 - Accessed via drivers managed by the kernel.
 
 ---
 
-### 🧠 **7.2. Linux Kernel**
+### 🧠 **8.2. Linux Kernel**
 - Core of the system.
 - Handles:
   - **Process management**
@@ -217,14 +217,14 @@ Ubuntu is built on the **Linux kernel** and structured into multiple **layers** 
 
 ---
 
-### 💻 **7.4. Shell / CLI Interface**
+### 💻 **8.3. Shell / CLI Interface**
 - Bash, Zsh, Fish, etc.
 - Enables users to run commands directly.
 - Essential for system administration, scripting, and automation.
 
 ---
 
-### 📦 **7.7. Application Layer**
+### 📦 **8.4. Application Layer**
 - Software installed via package managers:
   - APT (`.deb`)
   - Snap
@@ -232,23 +232,24 @@ Ubuntu is built on the **Linux kernel** and structured into multiple **layers** 
 
 ---
 
-## 🧠 8. **What is a Software Management in Ubuntu?**
+## 🧠 9. **Software Management**
 
----
 
 ## 📦 **Key Software Management Tools in Ubuntu**
 
 Ubuntu is based on **Debian**, so it uses **APT** (Advanced Package Tool) for package management.
 
 ### 🔹 8.1. **APT (Advanced Package Tool)**
+
+- Backend tool that manages `.deb` packages
+- Resolves dependencies automatically
+- Pulls from online repositories
+
 ```bash
 sudo apt update          # Refreshes the package index
 sudo apt install nginx   # Installs a package
 sudo apt upgrade         # Updates installed packages
 ```
-- Backend tool that manages `.deb` packages
-- Resolves dependencies automatically
-- Pulls from online repositories
 
 ## 🔧 **If Installed Using APT how to remove the package**
 
@@ -289,11 +290,6 @@ sudo dpkg -l               # List all installed packages
 
 ## 📦 **If Installed Using DPKG how to remove the package**
 
-```bash
-sudo dpkg -r <package-name>
-```
-➡️ Use this if you installed a `.deb` file manually.
-
 Example:
 ```bash
 sudo dpkg -r google-chrome-stable
@@ -301,19 +297,17 @@ sudo dpkg -r google-chrome-stable
 ---
 
 ### 🔹 8.3. **Snap**
-```bash
-sudo snap install vlc
-```
 - Containerized packages
 - Developed by Canonical (Ubuntu’s parent company)
 - Updates automatically in the background
 
+```bash
+sudo snap install vlc
+```
+
 ---
 ## 📦 **If Installed Using Snap, how to remove**
 
-```bash
-sudo snap remove <package-name>
-```
 Example:
 ```bash
 sudo snap remove vlc
@@ -361,17 +355,6 @@ sudo service mysql stop
 | `enable` | Not supported with `service`; use `systemctl` |
 | `disable` | Not supported with `service`; use `systemctl` |
 
----
-
-### 🔍 9.2 List All Services
-
-```bash
-# Using service (limited list)
-service --status-all
-
-# Using systemctl (preferred)
-systemctl list-units --type=service
-```
 ---
 
 ## 🏁 10. **Conclusion**
