@@ -146,6 +146,8 @@ Great topic! Let's break it down 👇
 - **Unattended security updates**
 - Optional full-disk encryption during install
 
+---
+
 ## ☁️ 5. Ubuntu Use Cases
 
 | Use Case         | Example                   |
