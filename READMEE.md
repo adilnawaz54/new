@@ -7,119 +7,116 @@
 ---
 
 
+<details>
+<summary>🧠 <strong>1. Introduction</strong></summary>
+
+- [1. Introduction](#1-introduction)
+
+</details>
+
+<details>
+<summary>🧠 <strong>2. Why Use Ubuntu?</strong></summary>
+
+- [2. Why Use Ubuntu?](#2-why-use-ubuntu)
+  - [2.1. Free & Open Source](#21-free--open-source)
+  - [2.2. User-Friendly](#22-user-friendly)
+  - [2.3. Developer-Friendly](#23-developer-friendly)
+  - [2.4. Strong Community & Documentation](#24-strong-community--documentation)
+  - [2.5. Regular & Reliable Updates](#25-regular--reliable-updates)
+  - [2.6. Secure by Design](#26-secure-by-design)
+  - [2.7. Cloud & DevOps Ready](#27-cloud--devops-ready)
+  - [2.8. Lightweight & Flexible](#28-lightweight--flexible)
+
+</details>
+
+<details>
+<summary>📘 <strong>3. What is Ubuntu?</strong></summary>
+
+- [3. What is Ubuntu?](#3-what-is-ubuntu)
+
+</details>
+
+<details>
+<summary>💻 <strong>4. Ubuntu Versions & Releases</strong></summary>
+
+- [4. Ubuntu Versions & Releases](#4-ubuntu-versions--releases)
+
+</details>
+
+<details>
+<summary>🔒 <strong>5. Security Features</strong></summary>
+
+- [5. Security Features](#5-security-features)
+
+</details>
+
+<details>
+<summary>☁️ <strong>6. Ubuntu Use Cases</strong></summary>
+
+- [6. Ubuntu Use Cases](#6-ubuntu-use-cases)
+
+</details>
+
+<details>
+<summary>🐧 <strong>7. What Are Flavours in Linux?</strong></summary>
+
+- [7. What Are Flavours in Linux?](#7-what-are-flavours-in-linux)
+  - [7.1 Major Flavours of Linux (Distros)](#71-major-flavours-of-linux-distros)
+
+</details>
+
+<details>
+<summary>🏗️ <strong>8. Ubuntu Architecture Overview</strong></summary>
+
+- [8. Ubuntu Architecture Overview](#8-ubuntu-architecture-overview)
+  - [8.1. Hardware Layer](#81-hardware-layer)
+  - [8.2. Linux Kernel](#82-linux-kernel)
+  - [8.3. Shell / CLI Interface](#83-shell--cli-interface)
+  - [8.4. Application Layer](#84-application-layer)
+
+</details>
+
+<details>
+<summary>📦 <strong>9. Software Management</strong></summary>
+
+- [9. Software Management](#9-software-management)
+  - [9.1. APT](#81-apt-advanced-package-tool)
+  - [9.2. DPKG](#82-dpkg-debian-package-manager)
+  - [9.3. Snap](#83-snap)
+  - [9.4. Ubuntu Software Center](#84-ubuntu-software-center)
+
+</details>
+
+<details>
+<summary>🧠 <strong>10. Service Commands</strong></summary>
+
+- [10. Service Commands](#10-service-commands)
+  - [10.1 Common Service Commands](#91-common-service-commands)
+
+</details>
+
+<details>
+<summary>🏁 <strong>11. Conclusion</strong></summary>
+
+- [11. Conclusion](#11-conclusion)
+
+</details>
+
+<details>
+<summary>📧 <strong>12. Contacts</strong></summary>
+
+- [12. Contacts](#12-contacts)
+
+</details>
+
+<details>
+<summary>🔗 <strong>13. References</strong></summary>
+
+- [13. References](#13-references)
+
+</details>
+
 ---
-
-## 📚 Table of Contents (Collapsible)
-
-<details>
-  <summary>🧠 1. Introduction</summary>
-  <ul>
-    <li><a href="#-1-introduction">Introduction</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>🧠 2. Why to use Ubuntu?</summary>
-  <ul>
-    <li><a href="#-2-why-to-use-ubuntu">Why to use Ubuntu?</a></li>
-    <li><a href="#-21-free--open-source">2.1 Free & Open Source</a></li>
-    <li><a href="#-22-user-friendly">2.2 User-Friendly</a></li>
-    <li><a href="#-23-developer-friendly">2.3 Developer-Friendly</a></li>
-    <li><a href="#-24-strong-community--documentation">2.4 Strong Community & Documentation</a></li>
-    <li><a href="#-25-regular--reliable-updates">2.5 Regular & Reliable Updates</a></li>
-    <li><a href="#-26-secure-by-design">2.6 Secure by Design</a></li>
-    <li><a href="#-27-cloud--devops-ready">2.7 Cloud & DevOps Ready</a></li>
-    <li><a href="#-28-lightweight--flexible">2.8 Lightweight & Flexible</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>📘 3. What is Ubuntu?</summary>
-  <ul>
-    <li><a href="#-3-what-is-ubuntu">What is Ubuntu?</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>💻 4. Ubuntu Versions & Releases</summary>
-  <ul>
-    <li><a href="#-4-ubuntu-versions--releases">Versions & Releases</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>🔒 5. Security Features</summary>
-  <ul>
-    <li><a href="#-5-security-features">Security Features</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>☁️ 6. Ubuntu Use Cases</summary>
-  <ul>
-    <li><a href="#-6-ubuntu-use-cases">Use Cases</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>🐧 7. Linux Flavours</summary>
-  <ul>
-    <li><a href="#-7-what-are-flavours-in-linux">What Are Flavours in Linux?</a></li>
-    <li><a href="#-71-major-flavours-of-linux-distros">7.1 Major Flavours of Linux (Distros)</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>🏗️ 8. Ubuntu Architecture</summary>
-  <ul>
-    <li><a href="#-8-ubuntu-architecture-overview">Architecture Overview</a></li>
-    <li><a href="#-81-hardware-layer">8.1 Hardware Layer</a></li>
-    <li><a href="#-82-linux-kernel">8.2 Linux Kernel</a></li>
-    <li><a href="#-83-shell--cli-interface">8.3 Shell / CLI Interface</a></li>
-    <li><a href="#-84-application-layer">8.4 Application Layer</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>📦 9. Software Management</summary>
-  <ul>
-    <li><a href="#-9-software-management">Software Management</a></li>
-    <li><a href="#-81-apt-advanced-package-tool">9.1 APT (Advanced Package Tool)</a></li>
-    <li><a href="#-82-dpkg-debian-package-manager">9.2 DPKG</a></li>
-    <li><a href="#-83-snap">9.3 Snap</a></li>
-    <li><a href="#-84-ubuntu-software-center-gui">9.4 Ubuntu Software Center (GUI)</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>🧠 10. Service Commands in Ubuntu</summary>
-  <ul>
-    <li><a href="#-9-service-commands-in-ubuntu">Service Commands</a></li>
-    <li><a href="#-91-common-service-commands">10.1 Common Service Commands</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>🏁 11. Conclusion</summary>
-  <ul>
-    <li><a href="#-10-conclusion">Conclusion</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>📬 12. Contacts</summary>
-  <ul>
-    <li><a href="#11-contacts">Contacts</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>📚 13. References</summary>
-  <ul>
-    <li><a href="#12-references">References</a></li>
-  </ul>
-</details>
-
 
 
 ## 🧠 1. **Introduction**
