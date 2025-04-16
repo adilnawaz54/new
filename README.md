@@ -7,8 +7,6 @@
 ---
 
 
----
-
 ## 📚 Table of Contents
 
 1. 🧠 [Introduction](#-1-introduction)  
@@ -24,7 +22,7 @@
 3. 📘 [What is Ubuntu?](#-3-what-is-ubuntu)  
 4. 💻 [Ubuntu Versions & Releases](#-4-ubuntu-versions--releases)  
 5. 🔒 [Security Features](#-5-security-features)  
-6. [6. Ubuntu Use Cases](#6-ubuntu-use-cases) 
+6. ☁️ [Ubuntu Use Cases](#-6-ubuntu-use-cases)  
 7. 🐧 [What Are Flavours in Linux?](#-7-what-are-flavours-in-linux)  
    - 📦 [7.1 Major Flavours of Linux (Distros)](#-71-major-flavours-of-linux-distros)  
 8. 🏗️ [Ubuntu Architecture Overview](#-8-ubuntu-architecture-overview)  
@@ -44,7 +42,6 @@
 13. 📚 [References](#12-references)  
 
 ---
-
 
 
 
