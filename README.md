@@ -188,6 +188,8 @@ Great topic! Let's break it down 👇
 ---
 
 
+
+
 ## 🏗️ 7. **Ubuntu Architecture Overview**
 
 Ubuntu is built on the **Linux kernel** and structured into multiple **layers** — from the core system up to the graphical interface and applications.
