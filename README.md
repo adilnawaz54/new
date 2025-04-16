@@ -194,6 +194,9 @@ Great topic! Let's break it down 👇
 
 Ubuntu is built on the **Linux kernel** and structured into multiple **layers** — from the core system up to the graphical interface and applications.
 
+![linux architecture](https://github.com/user-attachments/assets/a476d87b-c185-47db-8058-50f58e03d5a6)
+
+
 
 ### 🔧 **7.1. Hardware Layer**
 - Physical components: CPU, memory, disk, GPU, etc.
