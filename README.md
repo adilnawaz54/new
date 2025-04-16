@@ -1,9 +1,9 @@
 #  Documentation: Operating System - Ubuntu
 
 
-| Created     | Version | Author        | Comment | Reviewer         |
-|-------------|---------|---------------|---------|------------------|
-| 15-04-2025  | V1      | Adil Nawaz    |         | Pritam           |
+| Created     | Version | Author        | Comment             | Reviewer         |
+|-------------|---------|---------------|---------------------|------------------|
+| 15-04-2025  | V1.2    | Adil Nawaz    |Internal Review      | Pritam           |
 ---
 
 
