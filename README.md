@@ -194,11 +194,21 @@ Great topic! Let's break it down 👇
 
 Ubuntu is built on the **Linux kernel** and structured into multiple **layers** — from the core system up to the graphical interface and applications.
 
-```
-![ubuntu arch](https://github.com/user-attachments/assets/c5f556bb-03ee-4dc1-8010-712847bed70d)
++----------------------------+
+|     Applications Layer     |
++----------------------------+
+|     Graphical Interface    |
++----------------------------+
+|     System Services & Daemons   |
++----------------------------+
+|   Shell / Command Line Interface  |
++----------------------------+
+|       System Libraries     |
++----------------------------+
+|        Linux Kernel        |
++----------------------------+
+|      Hardware / Devices    |
 
-
-```
 
 
 ### 🔧 **7.1. Hardware Layer**
